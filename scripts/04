@@ -1,0 +1,3 @@
+#!/bin/bash
+
+md5sum -c --status toto.md5 || echo "alert" | mail -s "crontab was modified" root;
