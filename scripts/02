@@ -1,5 +1,0 @@
-#!/bin/bash
-
-apt-get update >/var/log/udate_script.log
-
-echo "0 4 * * * /home/pelluro/02.sh" | tee -a /var/spool/cron/root
